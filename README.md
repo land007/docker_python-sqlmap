@@ -1,2 +1,2 @@
-# docker_sqlmap
-docker_sqlmap
+# docker_python-sqlmap
+docker_python-sqlmap
